@@ -17,10 +17,3 @@ double overlap(Rect R1, Rect R2){
     return (right - left) * (top - bottom);
 }
 
-int main(){
-	Rect R1;
-	Rect R2;
-	cin >> R1.x >> R1.y >> R1.w >> R1.h;
-	cin >> R2.x >> R2.y >> R2.w >> R2.h;
-	cout << overlap(R1,R2);
-}
